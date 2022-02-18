@@ -1,0 +1,26 @@
+READS IN THREE NUMBERS AND WRITES THEM ALL IN SORTED ORDER
+
+1st = INPUT('Enter a number')
+2nd = INPUT('Enter 2nd number')
+3rd = INPUT('Enter 3rd number')
+
+
+IF 1st < 2nd AND 3rd < 2nd THEN
+	IF 1st > 3rd
+		OUTPUT (3rd, 1st, 2nd)
+	ELSE
+		OUTPUT (1st, 3rd, 2nd)
+ELSE IF 1st < 3rd AND 2nd < 3rd THEN
+	IF 1st > 2nd
+		OUTPUT (2nd, 1st, 3rd)
+	ELSE
+		OUTPUT (1st, 2nd ,3rd)
+
+ELSE IF 2nd < 1st AND 3rd < 1st THEN
+	IF 3rd > 2nd
+		OUTPUT (2nd, 3rd, 1st)
+	ELSE
+		OUTPUT (3rd, 2nd, 1st)
+
+END IF
+OUTPUT (1st, 2nd ,3rd)

@@ -1,0 +1,13 @@
+RUNNING SUM
+
+SET sum = 0
+SET num = 0
+
+WHILE True:
+	num = INPUT('Enter a number')
+
+	IF num < 0
+	BREAK
+	
+	sum = sum + num
+OUTPUT sum

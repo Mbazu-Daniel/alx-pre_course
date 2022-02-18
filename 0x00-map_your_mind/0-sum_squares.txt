@@ -1,0 +1,11 @@
+SUM OF SQUARES
+
+SET sum_of_squares = 0
+num = INPUT('enter a number')
+
+FOR i in num length
+	
+	squares = multiply i by i
+	sum_of_squares = sum_of_squares + squares
+
+OUPTUT sum_of_squares
